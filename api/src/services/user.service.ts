@@ -1,7 +1,4 @@
 class UserService {
-    async getUsers() {
-        //
-    }
 
     async getUserById() {
         //

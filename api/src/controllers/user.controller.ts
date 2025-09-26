@@ -3,10 +3,6 @@ import HttpResponse from "../helpers/response/response";
 
 class UserController {
 
-    static async getUsers(req: Request, res: Response) {
-        return {};
-    }
-
     static async getUserById(req: Request, res: Response) {
         return {}
     }

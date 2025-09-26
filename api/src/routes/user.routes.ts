@@ -4,8 +4,6 @@ import UserController from '../controllers/user.controller';
 const userRouter: Router = express.Router();
 
 // GET Routes
-userRouter.get('/', UserController.getUsers);
-
 userRouter.get('/:id', UserController.getUserById);
 
 // POST Routes
